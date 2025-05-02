@@ -1,4 +1,3 @@
-# DataAnalysisTestBeam2024
 # RPC Beam Test Data Analysis
 
 This project provides tools for analyzing beam test data from a multi-detector setup that includes Resistive Plate Chambers (RPCs), Silicon Photomultipliers (SiPMs), and Photomultiplier Tubes (PMTs). It was developed in the context of detector performance studies for the ALICE3 experiment at CERN.
@@ -13,25 +12,26 @@ The main script, `readData.C`, reads binary waveform data acquired with a CAEN d
 - Creates visual plots of signals, charge distributions, and charge vs. time
 - Outputs numerical results into a plain text file
 
-
 ## 📁 Directory Structure
 
--RPC_BeamTest_Analysis/
-  --readData.C
-  --6GeVHadrons_16102024_12/
-    TR_0_0.dat
-    wave_0.dat
-    wave_1.dat
-    ...
-    wave_16.dat
-  --Efficiency&TR.txt
-  --Signals.svg
-  --TimeResolutionRPC1.svg
-  --TimeResolutionRPC3.svg
-  --ChargeRPC1.svg
-  --ChargeRPC3.svg
-  --ChargevsTimeRPC1.svg
-  --ChargevsTimeRPC3.svg
+```text
+RPC_BeamTest_Analysis/
+├── readData.C
+├── Functions_BeamTest.h
+├── 6GeVHadrons_16102024_12/
+│   ├── TR_0_0.dat
+│   ├── wave_0.dat
+│   ├── wave_1.dat
+│   ├── ...
+│   └── wave_16.dat
+├── Efficiency&TR.txt
+├── Signals.svg
+├── TimeResolutionRPC1.svg
+├── TimeResolutionRPC3.svg
+├── ChargeRPC1.svg
+├── ChargeRPC3.svg
+├── ChargevsTimeRPC1.svg
+└── ChargevsTimeRPC3.svg
 
 
 ## ⚙️ Requirements
