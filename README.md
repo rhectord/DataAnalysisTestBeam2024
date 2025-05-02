@@ -17,13 +17,16 @@ The main script, `readData.C`, reads binary waveform data acquired with a CAEN d
 ## 📁 Directory Structure
 
 RPC_BeamTest_Analysis/
+│
 ├── readData.C
 ├── Functions_BeamTest.h
 ├── 6GeVHadrons_16102024_12/
 │   ├── TR_0_0.dat
 │   ├── wave_0.dat
+│   ├── wave_1.dat
 │   ├── ...
 │   └── wave_16.dat
+│
 ├── Efficiency&TR.txt
 ├── Signals.svg
 ├── TimeResolutionRPC1.svg
