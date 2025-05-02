@@ -2,7 +2,7 @@
 
 This project provides tools for analyzing beam test data from a multi-detector setup that includes Resistive Plate Chambers (RPCs), Silicon Photomultipliers (SiPMs), and Photomultiplier Tubes (PMTs). It was developed in the context of detector performance studies for the ALICE3 experiment at CERN.
 
-## 📌 Purpose
+## Purpose
 
 The main script, `readData.C`, reads binary waveform data acquired with a CAEN digitizer and performs the following tasks:
 
@@ -51,7 +51,7 @@ RPC_BeamTest_Analysis/
 
 3. Review the generated output files and plots.
 
-📊 Output Files
+Output Files
 Efficiency&TR.txt — contains numerical results including:
 
 Total events
@@ -72,19 +72,19 @@ ChargeRPC[1,3].svg: charge distribution per RPC
 
 ChargevsTimeRPC[1,3].svg: 2D histograms of charge vs. signal time
 
-🧠 Notes
+Notes
 Time and charge thresholds are hard-coded for each channel; adjust them based on setup.
 
 The waveform amplitude is converted using AmplitudeResolution = 0.24414 mV/bit.
 
 Sampling rate is assumed to be 1 GS/s.
 
-🧪 Context
+Context
 This code is part of a data analysis effort for beam tests involving custom-built glass RPCs at the Benemérita Universidad Autónoma de Puebla (BUAP) and tested at CERN’s T10 beamline.
 
 👨‍🔬 Author
-Héctor David Regules Medel
-github.com/rhectord
+Héctor David Regules Medel 
+[https://github.com/rhectord](https://github.com/rhectord)
 
 📄 License
 MIT License — feel free to use, modify, and share with credit.
