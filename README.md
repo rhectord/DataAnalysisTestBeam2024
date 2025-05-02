@@ -86,7 +86,7 @@ ChargevsTimeRPC[1,3].svg: 2D histograms of charge vs. signal time
 
 ![Time Resolution RPC1](TimeResolutionRPC1.svg)
 
-### Time vs Charge – RPC1
+### Charge vs Time – RPC1
 
 ![Charge vs Time RPC1](ChargevsTimeRPC1.svg)
 
