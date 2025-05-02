@@ -76,19 +76,19 @@ ChargevsTimeRPC[1,3].svg: 2D histograms of charge vs. signal time
 
 ### Signal Overview
 
-![Signals](Signals.svg)
+![Signals](plots/Signals.svg)
 
 ### Charge Distribution – RPC1
 
-![Charge RPC1](ChargeRPC1.svg)
+![Charge RPC1](plots/ChargeRPC1.svg)
 
 ### Time Resolution – RPC1
 
-![Time Resolution RPC1](TimeResolutionRPC1.svg)
+![Time Resolution RPC1](plots/TimeResolutionRPC1.svg)
 
 ### Charge vs Time – RPC1
 
-![Charge vs Time RPC1](ChargevsTimeRPC1.svg)
+![Charge vs Time RPC1](plots/ChargevsTimeRPC1.svg)
 
 ### Notes
 Time and charge thresholds are hard-coded for each channel; adjust them based on setup.
