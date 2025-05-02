@@ -90,19 +90,19 @@ ChargevsTimeRPC[1,3].svg: 2D histograms of charge vs. signal time
 
 ![Charge vs Time RPC1](ChargevsTimeRPC1.svg)
 
-Notes
+###Notes
 Time and charge thresholds are hard-coded for each channel; adjust them based on setup.
 
 The waveform amplitude is converted using AmplitudeResolution = 0.24414 mV/bit.
 
 Sampling rate is assumed to be 1 GS/s.
 
-Context
+##Context
 This code is part of a data analysis effort for beam tests involving custom-built glass RPCs at the Benemérita Universidad Autónoma de Puebla (BUAP) and tested at CERN’s T10 beamline.
 
-👨‍🔬 Author
+##👨‍🔬 Author
 Héctor David Regules Medel 
 [https://github.com/rhectord](https://github.com/rhectord)
 
-📄 License
+##📄 License
 MIT License — feel free to use, modify, and share with credit.
