@@ -38,7 +38,7 @@ RPC_BeamTest_Analysis/
 ## ⚙️ Requirements
 
 - ROOT (v6 or higher) [https://root.cern](https://root.cern/)
-- Binary waveform files from a CAEN digitizer (16+1 channels)
+- Binary waveform files from a CAEN V1742 Digitizer 32+2 Channel 12bit 5 GS/s 
 - Header file: `Functions_BeamTest.h` with required external definitions like `SIZE_SAMPLE`
 
 ## 🚀 How to Run
